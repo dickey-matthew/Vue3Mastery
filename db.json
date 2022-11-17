@@ -1,84 +1,30 @@
 {
-    "events": [
-      {
-        "id": 123,
-        "category": "animal welfare",
-        "title": "Cat Adoption Day",
-        "description": "Find your new feline friend at this event.",
-        "location": "Meow Town",
-        "date": "January 28, 2022",
-        "time": "12:00",
-        "organizer": "Kat Laydee"
-      },
-      {
-        "id": 456,
-        "category": "food",
-        "title": "Community Gardening",
-        "description": "Join us as we tend to the community edible plants.",
-        "location": "Flora City",
-        "date": "March 14, 2022",
-        "time": "10:00",
-        "organizer": "Fern Pollin"
-      },
-      {
-        "id": 789,
-        "category": "sustainability",
-        "title": "Beach Cleanup",
-        "description": "Help pick up trash along the shore.",
-        "location": "Playa Del Carmen",
-        "date": "July 22, 2022",
-        "time": "11:00",
-        "organizer": "Carey Wales"
-      },
-      {
-        "id": 1123,
-        "category": "sustainability",
-        "title": "Park Cleanup",
-        "description": "Help pick up trash at the park.",
-        "location": "Playa Del Carmen",
-        "date": "January 18, 2022",
-        "time": "09:00",
-        "organizer": "Carey Wales"
-      },
-      {
-        "id": 1234,
-        "category": "food",
-        "title": "Gardening with Friends",
-        "description": "Join us for Gardening with Friends",
-        "location": "Flora City",
-        "date": "July 04, 2022",
-        "time": "16:00",
-        "organizer": "Fern Pollin"
-      },
-      {
-        "id": 1345,
-        "category": "food",
-        "title": "Gardening with Felons",
-        "description": "Join us for an Evening with Gardening with Martha Stewart",
-        "location": "Flora City",
-        "date": "January 19, 2022",
-        "time": "12:00",
-        "organizer": "Martha Stewart"
-      },
-      {
-        "id": 1456,
-        "category": "animal welfare",
-        "title": "Save a Kitten",
-        "description": "Join us to adopted adorable kittens",
-        "location": "Meow Town",
-        "date": "July 09, 2022",
-        "time": "12:00",
-        "organizer": "Kat Laydee"
-      },
-      {
-        "id": 1567,
-        "category": "animal welfare",
-        "title": "Save a Puppers",
-        "description": "Join us to adopted adorable puppies",
-        "location": "Bark Town",
-        "date": "July 10, 2022",
-        "time": "12:00",
-        "organizer": "Kat Laydee"
-      }
+    "schemas": [
+        { "name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1", "sdHd": "SD", "sdv":false, "clms": "5555", "tms": "654", "iguide": "5000", "passport": "", "clu": "CLM-1", "classService": {"schema1": [
+                    {"value": "Basic", "label":"Label", "badge":"primary"
+                    },
+                    {"value": "SPP Basic", "label":"Label", "badge":"secondary"
+                    }
+                ]
+            }
+        },
+        { "name": "schema2", "addRemove": "", "channel":"5"  ,"sourceName": "Test2", "sdHd": "HD", "sdv":false, "clms": "123", "tms": "1234", "iguide": "432", "passport": "4433", "clu": "CLM-1", "classService": {"schema2": [
+                    {"value": "Basic", "label":"Label", "badge":"secondary"
+                    },
+                    {"value": "SPP Basic", "label":"Label", "badge":"secondary"
+                    },
+                    {"value": "SBB", "label":"Label", "badge":"secondary"
+                    }
+                ]
+            }
+        },
+        { "name": "schema3", "addRemove": "", "channel":"150","sourceName": "", "sdHd": "", "sdv":false, "clms": "6788", "tms": "7788", "iguide": "98764", "passport": "12345", "clu": "CLM-1", "classService": {"schema3": [
+                    {"value": "Premium", "label":"Label", "badge":"warning"
+                    },
+                    {"value": "Tier2", "label":"Label", "badge":"secondary"
+                    }
+                ]
+            }
+        }
     ]
-  }
+}
