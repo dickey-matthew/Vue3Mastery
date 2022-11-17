@@ -1,0 +1,30 @@
+{
+    "schemas": [
+        { "name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1", "sdHd": "SD", "sdv":false, "clms": "5555", "tms": "654", "iguide": "5000", "passport": "", "clu": "CLM-1", "classService": {"schema1": [
+                    {"value": "Basic", "label":"Label", "badge":"primary"
+                    },
+                    {"value": "SPP Basic", "label":"Label", "badge":"secondary"
+                    }
+                ]
+            }
+        },
+        { "name": "schema2", "addRemove": "", "channel":"5"  ,"sourceName": "Test2", "sdHd": "HD", "sdv":false, "clms": "123", "tms": "1234", "iguide": "432", "passport": "4433", "clu": "CLM-1", "classService": {"schema2": [
+                    {"value": "Basic", "label":"Label", "badge":"secondary"
+                    },
+                    {"value": "SPP Basic", "label":"Label", "badge":"secondary"
+                    },
+                    {"value": "SBB", "label":"Label", "badge":"secondary"
+                    }
+                ]
+            }
+        },
+        { "name": "schema3", "addRemove": "", "channel":"150","sourceName": "", "sdHd": "", "sdv":false, "clms": "6788", "tms": "7788", "iguide": "98764", "passport": "12345", "clu": "CLM-1", "classService": {"schema3": [
+                    {"value": "Premium", "label":"Label", "badge":"warning"
+                    },
+                    {"value": "Tier2", "label":"Label", "badge":"secondary"
+                    }
+                ]
+            }
+        }
+    ]
+}
