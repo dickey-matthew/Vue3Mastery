@@ -1,11 +1,8 @@
 {
     "node1": 
-            { "name": "schema2", "addRemove": "", "channel":"5"  ,"sourceName": "Test2", "sdHd": "HD", "sdv":false, "clms": "123", "tms": "1234", "iguide": "432", "passport": "4433", "clu": "CLM-1"
-        }, 
+            { "name": "schema2", "addRemove": "", "channel":"5"  ,"sourceName": "Test2"}, 
     "node2":
-            { "name": "schema3", "addRemove": "", "channel":"150","sourceName": "", "sdHd": "", "sdv":false, "clms": "6788", "tms": "7788", "iguide": "98764", "passport": "12345", "clu": "CLM-1"
-        },
+            { "name": "schema3", "addRemove": "", "channel":"150","sourceName": "Test3"},
     "node3":
-            { "name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1", "sdHd": "SD", "sdv":false, "clms": "5555", "tms": "654", "iguide": "5000", "passport": "", "clu": "CLM-1"
-        }
+            { "name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1"}
 }
