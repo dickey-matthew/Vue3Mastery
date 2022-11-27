@@ -1,5 +1,8 @@
 {
  "node1":{"name": "schema2", "addRemove": "", "channel":"5"  ,"sourceName": "Test2" },
  "node2":{"name": "schema3", "addRemove": "", "channel":"150","sourceName": "Test3"},
- "node3":{"name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1"}
+ "node3":{"name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1"},
+ "node4":{"name": "schema3", "addRemove": "Add", "channel":"54"  ,"sourceName": "Test13"},
+ "node5":{"name": "schema1", "addRemove": "Remove", "channel":"40"  ,"sourceName": "Test1"}
+
 }
