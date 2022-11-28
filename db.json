@@ -1,8 +1,57 @@
 {
- "node1":{"name": "schema2", "addRemove": "", "channel":"5"  ,"sourceName": "Test2" },
- "node2":{"name": "schema3", "addRemove": "", "channel":"150","sourceName": "Test3"},
- "node3":{"name": "schema1", "addRemove": "Add", "channel":"4"  ,"sourceName": "Test1"},
- "node4":{"name": "schema3", "addRemove": "Add", "channel":"54"  ,"sourceName": "Test13"},
- "node5":{"name": "schema1", "addRemove": "Remove", "channel":"40"  ,"sourceName": "Test1"}
-
+    "history" : [
+        {
+            "date": "Mon Nov 28 09:06:33 2022",
+            "user": "mdickey",
+            "IP Address": "192.168.33.64",
+            "Device": "VDCM",
+            "Status": "Succesful"
+        },
+        {
+            "date": "Sun Nov 27 10:45:08 2022",
+            "user": "mdickey",
+            "IP Address": "192.168.33.64",
+            "Device": "VDCM",
+            "Status": "Succesful"
+        },
+        {
+            "date": "Sun Nov 27 08:24:16 2022",
+            "user": "pbaenen",
+            "IP Address": "192.168.33.34",
+            "Device": "MX3NE",
+            "Status": "Fail"
+        },
+        {
+            "date": "Sun Nov 27 07:33:55 2022",
+            "user": "dsenica",
+            "IP Address": "192.168.33.36",
+            "Device": "MX3NE",
+            "Status": "Fail"
+        },
+        {
+            "date": "Sun Nov 27 07:24:33 2022",
+            "user": "dsenica",
+            "IP Address": "192.168.33.121",
+            "Device": "RFGW",
+            "Status": "Succesful"
+        },
+        {
+            "date": "Sat Nov 26 22:33:55 2022",
+            "user": "pbaenen",
+            "IP Address": "192.168.36.48",
+            "Device": "VDCM",
+            "Status": "Succesful"
+        },
+        {
+            
+            "date": "Sat Nov 26 21:16:28 2022",
+            "user": "mdickey",
+            "IP Address": "192.168.36.48",
+            "Device": "MX3NE",
+            "Status": "Succesful"
+            
+        }
+    ]
 }
+MX3NE
+RFGW
