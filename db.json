@@ -1,6 +1,13 @@
 {
     "history" : [
         {
+            "date": "Tue Nov 29 14:19:33 2022",
+            "user": "pbaenen",
+            "IP Address": "192.168.33.64",
+            "Device": "MX3N@",
+            "Status": "Succesful"
+        },
+        {
             "date": "Mon Nov 28 09:06:33 2022",
             "user": "mdickey",
             "IP Address": "192.168.33.64",
